@@ -1,0 +1,32 @@
+{
+  "name": "mongos-and-handlebars",
+  "version": "1.0.0",
+  "description": "using mongodb w/ handlebars",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikea1/mongos-and-handlebars.git"
+  },
+  "keywords": [
+    "mongodb",
+    "handlebars"
+  ],
+  "author": "Adenike Adeyemi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikea1/mongos-and-handlebars/issues"
+  },
+  "homepage": "https://github.com/nikea1/mongos-and-handlebars#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.7",
+    "mongoose": "^4.7.6",
+    "path": "^0.12.7"
+  }
+}

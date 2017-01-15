@@ -1,0 +1,15 @@
+<form action="/user" method="POST">
+	<label for="name"></label>
+	<input id="name" type="text" name="name" />
+
+	<input type="submit" />
+</form>
+
+<h1>Users in Mongo</h1>
+<div>
+	<ol>
+	{{#each users}}
+		<li>{{this.name}}</li>
+	{{/each}}
+	</ol>
+</div>
